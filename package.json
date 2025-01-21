@@ -6,17 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "import-data": "node scripts/importSanityData.mjs"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
+    "@sanity/client": "^6.25.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.70.0",
+    "axios": "^1.7.9",
     "base": "^3.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "lib": "^5.1.0",
     "next": "14.2.2",
+    "next-sanity": "^9.8.39",
     "react": "^18",
     "react-dom": "^18",
+    "sanity": "^3.70.0",
+    "styled-components": "^6.1.14",
     "tailwind": "^4.0.0",
     "tailwind-merge": "^2.5.5"
   },
